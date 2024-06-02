@@ -1,0 +1,18 @@
+canvas {
+  border: 2px solid black;
+  background-image: url('lawn.png');
+  z-index: 0;
+  display: inline;
+  position: absolute;
+  border-radius: 0.5rem;
+  box-shadow: black 0.2rem 0.2rem;
+}
+.peashooter {
+  background-image: url('peashooter.webp');
+  background-size:contain;
+  height: 10.5vh;
+  width: 5vw;
+  z-index: 1;
+  display: inline-block;
+  position: absolute;
+}
